@@ -1,0 +1,59 @@
+.card{
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    max-width: 350px;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cardHeader{
+    height: 200px;
+}
+
+.cardHeaderImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardSub{
+    background-color: white;
+    padding: 22px 30px;
+}
+
+.cardSub > *{
+    margin: 8px 0;
+}
+
+.infoText{
+    color: #4d4d4d;
+}
+
+.profile{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.profilePhotoContainer{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.profilePhoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileName{
+    font-weight: bold;
+}
+
+.profileDate{
+    color: #4d4d4d;
+}
